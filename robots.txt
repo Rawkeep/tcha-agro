@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://rawkeep.github.io/tcha-agro/sitemap.xml

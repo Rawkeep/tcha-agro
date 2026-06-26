@@ -1,0 +1,14 @@
+{
+  "name": "TCHA AGRO Business Center",
+  "short_name": "TCHA AGRO",
+  "description": "Agrarproduktion aus Togo und internationaler Handelsagent. Vom Feld bis vor Ihre Tür.",
+  "lang": "de",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#0b3a35",
+  "theme_color": "#0f5c54",
+  "icons": [
+    { "src": "assets/img/favicon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}
