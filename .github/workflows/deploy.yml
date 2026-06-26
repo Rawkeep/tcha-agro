@@ -2,7 +2,7 @@ name: Deploy to GitHub Pages
 
 on:
   push:
-    branches: [claude/tcha-agro-website-8gtoc9, main]
+    branches: [main]
   workflow_dispatch:
 
 permissions:
