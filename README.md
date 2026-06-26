@@ -26,15 +26,21 @@ assets/tcha-agro.vcf  → vCard zum Speichern des Kontakts
 
 ## ✏️ Platzhalter ersetzen (wichtig!)
 
-Alle noch einzutragenden Daten sind als `[…]` markiert und auf der Seite
-**farblich hervorgehoben**. Bitte an folgenden Stellen ersetzen:
+Echte Daten aus der „Carte Unique de Création d'Entreprise" sind eingebaut:
+Telefon (+228 90 12 18 89 / 96 42 42 36, auch als **WhatsApp**), Adresse
+(Adétikopé–Tsikplonoukondji, Tsévié, Togo) und Registrierung (TCHA ABC ·
+Entreprise Individuelle · Inh. Mohamed Moutalabi). Das Kontaktformular sendet
+per WhatsApp.
+
+**Noch offen — nur die E-Mail** (steht nicht auf der Karte), als Platzhalter
+markiert:
 
 | Platzhalter | Dateien |
 |---|---|
-| `[Telefonnummer]` | `index.html`, `visitenkarte.html`, `assets/tcha-agro.vcf` |
-| `[E-Mail-Adresse]` / `[E-Mail]` | `index.html`, `visitenkarte.html`, `assets/tcha-agro.vcf` |
-| `[Straße & Nr.]` | `assets/js/i18n.js` (Schlüssel `contact.addressval`), `assets/tcha-agro.vcf` |
-| `[SNIF-Nummer]` | `index.html`, `visitenkarte.html`, `assets/tcha-agro.vcf` |
+| `[E-Mail-Adresse]` / `[E-Mail]` | `index.html` (Kontakt-Item + `data-email` am Formular) |
+
+Sobald eine E-Mail vorliegt, dort eintragen — oder den Eintrag entfernen,
+falls WhatsApp als alleiniger Kanal genügt.
 
 **Tipp:** In `index.html` ist die E-Mail im Kontaktformular über das Attribut
 `data-email="[E-Mail]"` (am `<form id="inquiry-form">`) gesetzt — dort die

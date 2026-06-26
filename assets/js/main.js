@@ -96,14 +96,22 @@
       form.addEventListener("submit", (e) => {
         e.preventDefault();
         const data = new FormData(form);
-        const to = form.dataset.email || "[E-Mail]";
         const lines = [
           "Name: " + (data.get("name") || ""),
           "E-Mail: " + (data.get("email") || ""),
           "Land/Country: " + (data.get("country") || ""),
+          "Betreff: " + (data.get("subject") || ""),
           "",
           data.get("message") || "",
         ];
+        // Bevorzugt WhatsApp (Togo-Nummer), sonst E-Mail-Fallback.
+        const wa = form.dataset.whatsapp;
+        if (wa) {
+          const text = encodeURIComponent("Anfrage an TCHA AGRO\n\n" + lines.join("\n"));
+          window.open(`https://wa.me/${wa}?text=${text}`, "_blank", "noopener");
+          return;
+        }
+        const to = form.dataset.email || "[E-Mail]";
         const subject = encodeURIComponent("[TCHA AGRO] " + (data.get("subject") || "Anfrage"));
         const body = encodeURIComponent(lines.join("\n"));
         window.location.href = `mailto:${to}?subject=${subject}&body=${body}`;

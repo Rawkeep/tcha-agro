@@ -1,12 +1,12 @@
 BEGIN:VCARD
 VERSION:3.0
-N:;TCHA AGRO Business Center;;;
-FN:TCHA AGRO Business Center
+N:Moutalabi;Mohamed;;;
+FN:Mohamed Moutalabi
 ORG:TCHA AGRO Business Center
-TITLE:Agrarproduktion & Internationale Handelsagentur
-ADR;TYPE=WORK:;;[Strasse & Nr.];Lome;;;Togo
-TEL;TYPE=WORK,VOICE:[Telefonnummer]
-EMAIL;TYPE=WORK:[E-Mail-Adresse]
+TITLE:Inhaber - Agrarproduktion & Internationale Handelsagentur
+ADR;TYPE=WORK:;;Adetikope-Tsikplonoukondji;Tsevie;;;Togo
+TEL;TYPE=WORK,VOICE:+228 90 12 18 89
+TEL;TYPE=CELL,VOICE:+228 96 42 42 36
 URL:https://rawkeep.github.io/tcha-agro/
-NOTE:Vom Feld in Togo bis vor Ihre Tuer - weltweit. SNIF: [SNIF-Nummer]
+NOTE:TCHA ABC - Entreprise Individuelle. WhatsApp: +228 90 12 18 89. Vom Feld in Togo bis vor Ihre Tuer - weltweit.
 END:VCARD
