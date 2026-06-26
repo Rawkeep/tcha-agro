@@ -56,7 +56,7 @@ Die Seite ist für **drei Wege** vorbereitet — einer genügt:
 2. Bei **Build and deployment → Source**: **GitHub Actions** wählen.
 3. Fertig. Der Workflow `.github/workflows/deploy.yml` veröffentlicht bei
    jedem Push automatisch. URL danach:
-   `https://rawkeep.github.io/abc/`
+   `https://rawkeep.github.io/Tiagoro/`
 
    *Alternativ* (ohne Actions): Source auf *Deploy from a branch* →
    Branch `claude/tcha-agro-website-8gtoc9` / `/ (root)`. Die Datei
