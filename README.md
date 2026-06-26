@@ -95,7 +95,10 @@ Neue Texte ausschließlich in `assets/js/i18n.js` pflegen (drei Blöcke).
 
 ---
 
-> **Hinweis zur Marke:** Die internationale Vermittlung wird als
-> Leistung der *TCHA AGRO Business Center* dargestellt (Formulierung
-> „über unser Business-Center-Netzwerk"). Falls die Sourcing-Sparte einen
-> eigenen Namen tragen soll, lässt sich das zentral in `i18n.js` anpassen.
+> **Hinweis zur Marke:** Dachmarke ist **TCHA AGRO Business Center**
+> (Geflügelzucht & -verkauf, *Elevage et vente de volaille*). Die
+> internationale Handels-/Beschaffungssparte tritt als **HR Business
+> Center** auf — eine Sparte unter dem Dach, über die weltweit angefragt
+> und Door-to-Door abgewickelt wird (von Togo in alle Welt und aus aller
+> Welt nach Togo/Westafrika). Beide Namen lassen sich zentral in
+> `assets/js/i18n.js` anpassen.
