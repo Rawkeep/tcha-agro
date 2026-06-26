@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0f5c54"/>
+      <stop offset="1" stop-color="#093f39"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.8" cy="0.2" r="0.7">
+      <stop offset="0" stop-color="#d8a33c" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#d8a33c" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect width="1200" height="630" fill="url(#glow)"/>
+  <ellipse cx="940" cy="180" rx="420" ry="160" fill="none" stroke="#e8c578" stroke-width="2" stroke-dasharray="4 6" opacity="0.5" transform="rotate(-20 940 180)"/>
+  <circle cx="1080" cy="120" r="6" fill="#c0532f"/>
+  <circle cx="760" cy="250" r="6" fill="#f6efe3"/>
+  <!-- Mark -->
+  <g transform="translate(96,150) scale(2.0)">
+    <circle cx="50" cy="50" r="46" fill="#0b4a44"/>
+    <ellipse cx="50" cy="50" rx="38" ry="16" fill="none" stroke="#e8c578" stroke-width="1.6" stroke-dasharray="3 4" transform="rotate(-28 50 50)"/>
+    <path d="M50 74 C50 64 50 58 50 52" stroke="#f6efe3" stroke-width="3.4" fill="none" stroke-linecap="round"/>
+    <path d="M50 56 C42 56 36 51 35 43 C44 43 50 48 50 56 Z" fill="#d8a33c"/>
+    <path d="M50 50 C58 50 64 45 65 37 C56 37 50 42 50 50 Z" fill="#f6efe3"/>
+    <circle cx="50" cy="77" r="3.4" fill="#d8a33c"/>
+  </g>
+  <text x="320" y="290" font-family="Georgia, serif" font-size="78" font-weight="600" fill="#f6efe3">TCHA AGRO</text>
+  <text x="322" y="345" font-family="Georgia, serif" font-size="40" font-style="italic" fill="#d8a33c">Business Center · Togo</text>
+  <text x="96" y="480" font-family="Arial, sans-serif" font-size="34" fill="#f6efe3" opacity="0.92">Vom Feld in Togo bis vor Ihre Tür — weltweit.</text>
+  <text x="96" y="528" font-family="Arial, sans-serif" font-size="24" fill="#e8c578" letter-spacing="3">AGRARPRODUKTION · GLOBAL SOURCING · DOOR-TO-DOOR</text>
+</svg>
