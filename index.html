@@ -17,11 +17,14 @@
   <meta property="og:description" content="Agrarproduktion aus Togo und Ihr Handelsagent zwischen den Kontinenten. Vom Feld bis vor Ihre Tür." />
   <meta property="og:image" content="assets/img/og.svg" />
   <meta name="twitter:card" content="summary_large_image" />
-
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,600;1,9..144,500;1,9..144,600&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/fonts.css" />
   <link rel="stylesheet" href="assets/css/styles.css" />
+  <noscript><style>
+    /* Ohne JavaScript bleibt sonst fast die ganze Seite unsichtbar:
+       [data-reveal] startet mit opacity:0 und wird erst vom Skript
+       eingeblendet. Inhalt darf nie an JS haengen. */
+    [data-reveal] { opacity: 1 !important; transform: none !important; }
+  </style></noscript>
 
   <script type="application/ld+json">
   {
@@ -348,13 +351,13 @@
 
           <form class="form" id="inquiry-form" data-whatsapp="22890121889" data-email="[E-Mail]" data-reveal data-delay="1">
             <div class="form-row two">
-              <div class="field"><label data-i18n="contact.f.name">Name</label><input type="text" name="name" required /></div>
-              <div class="field"><label data-i18n="contact.f.email">E-Mail</label><input type="email" name="email" required /></div>
+              <div class="field"><label for="f-name" data-i18n="contact.f.name">Name</label><input id="f-name" type="text" name="name" required /></div>
+              <div class="field"><label for="f-email" data-i18n="contact.f.email">E-Mail</label><input id="f-email" type="email" name="email" required /></div>
             </div>
             <div class="form-row two">
-              <div class="field"><label data-i18n="contact.f.country">Land</label><input type="text" name="country" /></div>
-              <div class="field"><label data-i18n="contact.f.subject">Betreff der Anfrage</label>
-                <select name="subject">
+              <div class="field"><label for="f-country" data-i18n="contact.f.country">Land</label><input id="f-country" type="text" name="country" /></div>
+              <div class="field"><label for="f-subject" data-i18n="contact.f.subject">Betreff der Anfrage</label>
+                <select id="f-subject" name="subject">
                   <option data-i18n="contact.f.subject.opt1">Agrarprodukte (Eier, Geflügel, Gemüse)</option>
                   <option data-i18n="contact.f.subject.opt2">Tierfutter</option>
                   <option data-i18n="contact.f.subject.opt3">Global Sourcing / Vermittlung</option>
@@ -363,7 +366,7 @@
               </div>
             </div>
             <div class="form-row">
-              <div class="field"><label data-i18n="contact.f.message">Ihre Nachricht</label><textarea name="message" data-i18n-ph="contact.f.placeholder" placeholder="Beschreiben Sie, was Sie benötigen …" required></textarea></div>
+              <div class="field"><label for="f-message" data-i18n="contact.f.message">Ihre Nachricht</label><textarea id="f-message" name="message" data-i18n-ph="contact.f.placeholder" placeholder="Beschreiben Sie, was Sie benötigen …" required></textarea></div>
             </div>
             <button class="btn btn-primary" type="submit"><span data-i18n="contact.f.submit">Anfrage senden</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M5 12h14M13 6l6 6-6 6" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
             <p class="form-note" data-i18n="contact.f.note">Mit dem Absenden öffnet sich Ihr E-Mail-Programm.</p>
