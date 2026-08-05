@@ -45,6 +45,12 @@
 
 html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; }
 
+/* Sprungziele nicht unter die feste Navigation schieben. Ohne das landet
+   die Ueberschrift beim Klick auf einen Anker hinter der Leiste — der
+   Besucher sieht mitten im Absatz zu lesen anzufangen. Wert deckt die
+   Navi im gescrollten Zustand (.65rem Polsterung + Logo) mit Reserve. */
+:target, main[id], section[id], [id]:where(h1, h2, h3) { scroll-margin-top: 5.5rem; }
+
 body {
   font-family: var(--sans);
   color: var(--ink);
